@@ -1,6 +1,7 @@
-import pygame
 import random
 import time
+
+import pygame
 
 ORANGE = {'light': (255, 165, 0), 'dark': (255, 140, 0)}
 WHITE = {'light': (255, 255, 255), 'dark': (245, 245, 245)}
@@ -17,7 +18,7 @@ square_sz = int(500 / 25)
 pygame.init()
 clock = pygame.time.Clock()
 main_surface = pygame.display.set_mode((surface_width, surface_height))
-TURNS = 50
+TURNS = 40
 
 class Game:
     def __init__(self):
